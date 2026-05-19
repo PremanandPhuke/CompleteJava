@@ -20,13 +20,22 @@ public class OOPS {
         System.out.println("=======================================");
         System.out.println("Lets take an example, look out to the code how we have created car class and created its object and printed details ");
 
-        Car swift= new Car();
-
-        swift.name= "Swift";
-        swift.color= "Spended Silver";
-        swift.maxSpeed=120;
-
+//        for encapsulation in which we have made these parameters private and passed the required value which will not directly change the value
+//        also this is the object when we have a constructor which take three parameters at the same time
+        Car swift= new Car("Spended Silver", "Swift", 90);
         swift.Details();
+
+
+//        this was for understanding class and objects
+//        swift.name= "Swift";
+//        swift.color= "Spended Silver";
+//        swift.maxSpeed=120;
+
+        // by creating this object we have override the constructor
+        Car bmw= new Car("BMW", 90);
+//        bmw.Details2();
+
+
 
     }
 }
