@@ -1,4 +1,4 @@
-package com.java.Algorithms.Searching;
+package com.Algorithms.Searching;
 
 public class LinearSearchAlgo {
 
