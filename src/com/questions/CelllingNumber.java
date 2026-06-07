@@ -5,7 +5,7 @@ public class CelllingNumber {
 
 //        Celling number means, the smallest element in the arrtay which is greater than or equal to target;
         int [] arr= {2, 5, 9, 12, 14, 16, 19};
-        int target=13;
+        int target=173;
 
 //        here celling number is 16, its smallest element in the array whihc is greater than or equal to target
 
@@ -31,6 +31,6 @@ public class CelllingNumber {
             }
         }
 
-        return arr[mid+1] ;
+        return arr[start] ;
     }
 }
