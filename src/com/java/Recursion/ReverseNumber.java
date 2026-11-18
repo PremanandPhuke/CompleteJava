@@ -15,4 +15,4 @@ public class ReverseNumber {
         }
         return (n%10)*10 + reverseNumber(n/10);
     }
-}r
+}
